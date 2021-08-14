@@ -11,6 +11,7 @@ let menuLinks = [
       newzealand: 'https://www.instagram.com/kptb_nz_aotearoa/',
       videos: 'videos.html',
       joint: 'join.html',
+      kirgiz: 'https://www.instagram.com/kekp_kyrgyzstan/?utm_medium=copy_link',
     }
 ]
 
@@ -39,6 +40,7 @@ const menu = document.querySelector('.menu');
         <li><a href="#">Наши отделы</a>
             <ul class="dropdown">
                 <li><a href="${link.serbia}">КПТБ Сербии</a></li>
+                <li><a href="${link.kirgiz}">КПТБ Киргизии</a></li>
                 <li><a href="${link.ukraine}">МПТБ Украины</a></li>
                 <li><a href="${link.germany}">КПТБ Германии</a></li>
                 <li><a href="${link.italy}">КПТБ Италии</a></li>
