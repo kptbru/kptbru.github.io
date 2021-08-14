@@ -20,6 +20,7 @@ let menuLinks = [
     posts: 'posts.html',
     articles: 'articles.html',
     serbia: 'https://www.instagram.com/kptb_srb/?hl=ru',
+    kirgiz: 'https://www.instagram.com/kekp_kyrgyzstan/?utm_medium=copy_link',
     ukraine: 'https://www.instagram.com/mptb_ukraina/?hl=ru',
     germany: 'https://www.instagram.com/kpam_de/',
     italy: 'https://www.instagram.com/kptb_italia/',
@@ -71,6 +72,7 @@ let content2 = menuLinks.map(link => `
         <li><a href="#">Наши отделы</a>
             <ul class="dropdown">
                 <li><a href="${link.serbia}">КПТБ Сербии</a></li>
+                <li><a href="${link.kirgiz}">КПТБ Киргизии</a></li>
                 <li><a href="${link.ukraine}">МПТБ Украины</a></li>
                 <li><a href="${link.germany}">КПТБ Германии</a></li>
                 <li><a href="${link.italy}">КПТБ Италии</a></li>
