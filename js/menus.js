@@ -7,6 +7,7 @@ let menuLinks = [
       serbia: 'https://www.instagram.com/kptb_srb/?hl=ru',
       ukraine: 'https://www.instagram.com/mptb_ukraina/?hl=ru',
       germany: 'https://www.instagram.com/kpam_de/',
+      tvorchestvo: 'https://www.instagram.com/souz_proletarskogo_tvorchestva/',
       italy: 'https://www.instagram.com/kptb_italia/',
       newzealand: 'https://www.instagram.com/kptb_nz_aotearoa/',
       videos: 'videos.html',
@@ -43,6 +44,7 @@ const menu = document.querySelector('.menu');
                 <li><a href="${link.kirgiz}">КПТБ Киргизии</a></li>
                 <li><a href="${link.ukraine}">МПТБ Украины</a></li>
                 <li><a href="${link.germany}">КПТБ Германии</a></li>
+                <li><a href="${link.tvorchestvo}">Союз Пролетарского Творчества</a></li>
                 <li><a href="${link.italy}">КПТБ Италии</a></li>
                 <li><a href="${link.newzealand}">КПТБ Новой Зеландии</a></li>
             </ul>
