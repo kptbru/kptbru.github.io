@@ -1,5 +1,9 @@
 let blocks = [
     {
+      name: 'ПРОЛЕТАРСКОЕ СЛОВО #9',
+      source:'wIQ4VJKijoY',
+    },
+    {
       name: 'Россия В ОГНЕ. Почему горит лес?',
       source:'nTcmnU_YGOA',
     },
@@ -94,6 +98,10 @@ let blocks = [
 ]
 
 let prolitSlovo = [
+    {
+      name: 'ПРОЛЕТАРСКОЕ СЛОВО #9',
+      source:'wIQ4VJKijoY',
+    },
     {
       name: 'ПРОЛЕТАРСКОЕ СЛОВО #8: протесты украинских врачей, ряд забастовок в Казахстане',
       source:'_jyWh8dzTBU',
