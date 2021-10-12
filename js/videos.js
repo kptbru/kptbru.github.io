@@ -1,5 +1,9 @@
 let blocks = [
     {
+      name: 'Союз Пролетарского Творчества - 22 апреля(Mr.Red)',
+      source:'OnlYfCgTdjo',
+    },
+    {
       name: 'ПРОЛЕТАРСКОЕ СЛОВО #9',
       source:'wIQ4VJKijoY',
     },
