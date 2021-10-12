@@ -170,6 +170,17 @@ let teorija = [
     }
 ]
 
+let soyuz = [
+    {
+      name: 'Союз Пролетарского Творчества - 22 апреля(Mr.Red)',
+      source:'OnlYfCgTdjo',
+    },
+    {
+      name: 'Союз Пролетарского Творчества - МЫ В ОГНЕННОМ КОЛЬЦЕ(2021, СЕНТЯБРЬ)',
+      source:'QQvthUciMfE',
+    }
+]
+
 let translation = [
     {
       name: '"Государство и революция" В.И. Ленин Глава 1 Классовое общество и государство.',
@@ -189,10 +200,6 @@ let music = [
 ]
 
 let other = [
-    {
-      name: 'Союз Пролетарского Творчества - МЫ В ОГНЕННОМ КОЛЬЦЕ(2021, СЕНТЯБРЬ)',
-      source:'QQvthUciMfE',
-    },
     {
       name: 'ПОСВЯЩЕНИЕ В ПИОНЕРЫ В СССР',
       source:'Y8o0SKCSiKo&t=1s',
@@ -354,8 +361,8 @@ let content6 = teorija.map(block => `
 
 theory.innerHTML = content6.join('');
 
-const trans = document.querySelector('.trans');
-let content7 = translation.map(block => `
+const spt = document.querySelector('.spt');
+let content7 = soyuz.map(block => `
         <div class='vidik'>
           <h4>${block.name}</h4>
           <br>
@@ -364,10 +371,22 @@ let content7 = translation.map(block => `
         <br>
     `);
 
-trans.innerHTML = content7.join('');
+theory.innerHTML = content7.join('');
+
+const trans = document.querySelector('.trans');
+let content8 = translation.map(block => `
+        <div class='vidik'>
+          <h4>${block.name}</h4>
+          <br>
+          <iframe width="500" height="380" src="https://www.youtube.com/embed/${block.source}" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <br>
+    `);
+
+trans.innerHTML = content8.join('');
 
 const musics = document.querySelector('.musics');
-let content8 = music.map(block => `
+let content9 = music.map(block => `
         <div class='vidik'>
           <h4>${block.name}</h4>
           <br>
@@ -376,10 +395,10 @@ let content8 = music.map(block => `
         <br>
     `);
 
-musics.innerHTML = content8.join('');
+musics.innerHTML = content9.join('');
 
 const others = document.querySelector('.others');
-let content9 = other.map(block => `
+let content10 = other.map(block => `
         <div class='vidik'>
           <h4>${block.name}</h4>
           <br>
@@ -388,4 +407,4 @@ let content9 = other.map(block => `
         <br>
     `);
 
-others.innerHTML = content9.join('');
+others.innerHTML = content10.join('');
