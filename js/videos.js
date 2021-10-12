@@ -371,7 +371,7 @@ let content7 = soyuz.map(block => `
         <br>
     `);
 
-theory.innerHTML = content7.join('');
+spt.innerHTML = content7.join('');
 
 const trans = document.querySelector('.trans');
 let content8 = translation.map(block => `
