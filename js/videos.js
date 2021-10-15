@@ -1,5 +1,9 @@
 let blocks = [
     {
+      name: 'ПРОЛЕТАРСКОЕ СЛОВО 10: рабочие новости за прошедшую неделю',
+      source:'_EtUdeBTJEs',
+    },
+    {
       name: 'Союз Пролетарского Творчества - 22 апреля(Mr.Red)',
       source:'OnlYfCgTdjo',
     },
@@ -102,6 +106,10 @@ let blocks = [
 ]
 
 let prolitSlovo = [
+    {
+      name: 'ПРОЛЕТАРСКОЕ СЛОВО 10: рабочие новости за прошедшую неделю',
+      source:'_EtUdeBTJEs',
+    },
     {
       name: 'ПРОЛЕТАРСКОЕ СЛОВО #9',
       source:'wIQ4VJKijoY',
