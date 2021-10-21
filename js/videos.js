@@ -1,5 +1,9 @@
 let blocks = [
     {
+      name: 'ПРОЛЕТАРСКОЕ СЛОВО 11:',
+      source:'yOhXfIxALTA',
+    },
+    {
       name: 'ПРОЛЕТАРСКОЕ СЛОВО 10: рабочие новости за прошедшую неделю',
       source:'_EtUdeBTJEs',
     },
@@ -106,6 +110,10 @@ let blocks = [
 ]
 
 let prolitSlovo = [
+    {
+      name: 'ПРОЛЕТАРСКОЕ СЛОВО 11:',
+      source:'yOhXfIxALTA',
+    },
     {
       name: 'ПРОЛЕТАРСКОЕ СЛОВО 10: рабочие новости за прошедшую неделю',
       source:'_EtUdeBTJEs',
