@@ -121,7 +121,7 @@ const rusVerse = document.querySelector('.rusVerse');
     <br>
     <p>Двоевластие окончилось победой буржуазии. События 3-5 июля показали, что буржуазное Временное правительство не намерено выполнять требования трудящихся, и большевикам стало ясно, что мирным путем взять власть уже нельзя.</p>
     <br>
-    <p>На VI съезде РСДРП(б), который состоялся с 26 июля по 3 августа 1917 г., партия взяла ориентир на социалистическую революцию путем вооруженного восстания</p>
+    <p>На VI съезде РСДРП(б), который состоялся с 26 июля по 3 августа 1917 г., партия взяла ориентир на социалистическую революцию путем вооруженного восстания.</p>
     <br>
     <p>На августовском Государственном совещании в Москве буржуазия намеревалась объявить Л.Г. Корнилова военным диктатором и приурочить к этому событию разгон Советов. Но активное революционное выступление сорвало планы буржуазии. Тогда Корнилов 23 августа двинул войска на Петроград.</p>
     <br>
@@ -308,7 +308,112 @@ const gerVerse = document.querySelector('.gerVerse');
 gerVerse.innerHTML = content4;
 
 const engVerse = document.querySelector('.engVerse');
-    let content5 = (``);
+    let content5 = (`
+    <br>
+    <br>
+    <strong>Hello, comrades!</strong>
+    <br>
+    <br>
+    <p>Today we will tell you about the Great October Socialist Revolution. It took place in November 1917 on the night of the 6th to the 7th. As a result, the interim government was overthrown and the process of establishing Soviet power on 1/6 of the land began, an advanced socialist state was created, where power for the first time in history belonged to the working class. </p>
+    <br>
+    <br>
+    <strong>Background</strong>
+    <br>
+    <br>
+    <p>Autumn 1917. The Russian Empire is at war with the Central Powers. German troops were already at the gates of Riga. Tsarist Russia lost Poland, Western Belarus and part of the Baltic states. The people are tired of the war. The country's industry and agriculture were on the verge of collapse.</p>
+    <br>
+    <div class="article-photo">
+        <img src="images/russian_front.png" class="main-photo" alt="Великая Октябрьская социалистическая революция">
+    </div>
+    <br>
+    <p>The country had a catastrophic financial crisis. The peasants became impoverished because of the war and merciless exploitation by the landowners and kulaks. Socio-economic reforms were either not carried out at all or were unsuccessful. Tsar Nicholas II abdicated the throne and power passed to the interim government, which did not really want to make concessions to the working class and continued the bloody imperialist war "to a victorious end," which did not suit the overwhelming majority of the population. Power was weakened by contradictions between different political forces. The Kornilov revolt took place, which, although suppressed, nevertheless further undermined the authority of the Kerensky government. A revolutionary situation arose:<br>The country had a catastrophic financial crisis. The peasants became impoverished because of the war and merciless exploitation by the landowners and kulaks. Socio-economic reforms were either not carried out at all or were unsuccessful. Tsar Nicholas II abdicated the throne and power passed to the interim government, which did not really want to make concessions to the working class and continued the bloody imperialist war "to a victorious end," which did not suit the overwhelming majority of the population. Power was weakened by contradictions between different political forces. The Kornilov revolt took place, which, although suppressed, nevertheless further undermined the authority of the Kerensky government. A revolutionary situation arose:<br>2) The lower classes do not want to live in the old way - a sharp exacerbation above the usual need and the calamities of the oppressed classes and their persistent desire to change their lives for the better;<br>3) A significant increase in the activity of the masses, attracted both by the entire situation of the crisis and by the "top" themselves to independent historical action.</p>
+    <br>
+    <div class="article-photo">
+        <img src="images/oppression_alone.jpg" class="main-photo" alt="Великая Октябрьская социалистическая революция">
+    </div>
+    <br>
+    <br>
+    <strong>Main events</strong>
+    <br>
+    <br>
+    <p>On July 3, 1917, unrest began in Petrograd demanding the overthrow of the Provisional Government. Counterrevolutionary units, by order of the government, used weapons to suppress the peaceful demonstration. Arrests began, the death penalty was restored.</p>
+    <br>
+    <p>The dual power ended with the victory of the bourgeoisie. The events of July 3-5 showed that the bourgeois Provisional Government did not intend to fulfill the demands of the working people, and it became clear to the Bolsheviks that it was no longer possible to take power by peaceful means.</p>
+    <br>
+    <p>At the VI Congress of the RSDLP (b), which took place from July 26 to July 3 August 1917, the party took a reference point towards the socialist revolution through an armed uprising.</p>
+    <br>
+    <p>At the August State meeting in Moscow, the bourgeoisie intended to declare L.G. Kornilov as a military dictator and to coincide with this event the dispersal of the Soviets. But an active revolutionary action thwarted the plans of the bourgeoisie. Then Kornilov on August 23 moved his troops to Petrograd.</p>
+    <br>
+    <p>The Bolsheviks, conducting extensive agitational work among the working masses and soldiers, clarified the meaning of the conspiracy and created revolutionary centers to fight the Kornilovism. The revolt was suppressed, and the people finally realized that the Bolshevik Party is the only party that consistently and uncompromisingly defends the interests of the working people.</p>
+    <br>
+    <p>On September 24, the Bolsheviks received 51% of the votes in the district dumas. The bourgeois parties and the Provisional Government suffered a deep crisis, lacking support among the masses. </p>
+    <br>
+    <p>In mid-September, V.I. Lenin worked out a plan for an armed uprising and ways of implementing it. The main goal of the October Revolution was the conquest of power by the Soviets.</p>
+    <br>
+    <div class="article-photo">
+        <img src="images/sovetskaya_vlast.jpg" class="main-photo" alt="Великая Октябрьская социалистическая революция">
+    </div>
+    <br>
+    <br>
+    <strong>Red October</strong>
+    <br>
+    <br>
+    <p>On October 12, the Military Revolutionary Committee (VRK), a center for the preparation of an armed uprising, was created. Zinoviev and Kamenev, opponents of the socialist revolution, gave the terms of the uprising to the Provisional Government.</p>
+    <br>
+    <p>The uprising began on the night of October 24, the day the Second Congress of Soviets opened. The government was immediately able to isolate from the armed units loyal to it.</p>
+    <br>
+    <p>October 25 V.I. Lenin arrived in Smolny and personally led the uprising in Petrograd. During the October Revolution, the most important objects were seized, such as bridges, telegraph, government agencies.</p>
+    <br>
+    <p>On the morning of October 25, 1917, the All-Russian Revolutionary Committee announced the overthrow of the Provisional Government and the transfer of power to the Petrograd Soviet of Workers 'and Soldiers' Deputies. On October 26, the Winter Palace was captured and members of the Provisional Government were arrested.</p>
+    <br>
+    <p>The October Revolution in Russia took place with the full support of the masses. The alliance of the working class and the peasantry, the transition of the armed army to the side of the revolution, the weakness of the bourgeoisie determined the results of the October 1917 revolution.</p>
+    <br>
+    <div class="article-photo">
+        <img src="images/vsa_vlast_sovietam.jpg" class="main-photo" alt="Великая Октябрьская социалистическая революция">
+    </div>
+    <br>
+    <p>On October 25 and 26, 1917, the II All-Russian Congress of Soviets was held, at which the All-Russian Central Executive Committee (VTsIK) was elected and the first Soviet government, the Council of People's Commissars (SNK), was formed. V.I. Lenin. He put forward two Decrees: the "Decree on Peace", which called on the belligerent countries to end hostilities, and the "Decree on Land", expressing the interests of the peasants.</p>
+    <br>
+    <p>The adopted Decrees contributed to the victory of Soviet power in the regions of the country.</p>
+    <br>
+    <p>Fighting in Moscow continued until November 3, when the Public Security Committee agreed to lay down its arms. The October Revolution was immediately supported in the Central Industrial Region, where the local Soviets of Workers' Deputies had already actually established their power, in the Baltic States and Belarus, Soviet power was established in October - November 1917.</p>
+    <br>
+    <p>The revolutionary struggle in Siberia, Transcaucasia dragged on until the end of the civil war (1920-1921), which was a consequence of the October Revolution of 1917.</p>
+    <br>
+    <div class="article-photo">
+        <img src="images/da_zdravstvuet_revolucia.jpg" class="main-photo" alt="Великая Октябрьская социалистическая революция">
+    </div>
+    <br>
+    <br>
+    <strong>Consequences </strong>
+    <br>
+    <br>
+    <p><ol type="1">
+        <li>Subsequent creation of the USSR;</li>
+        <li>The bourgeois ideology "Orthodoxy. Autocracy. Nationality" was replaced by the communist;</li>
+        <li>The USSR within several years turned from a backward agrarian into an advanced powerful superpower;</li>
+        <li>The USSR achieved the withdrawal of education and medical services from the system of commodity-money relations. Educational program, creation of a universal free education system. Creation of an effective Semashko medical system, overcoming the Spanish flu epidemic;</li>
+        <li>The number of unemployed people decreased to a minimum;</li>
+        <li>8-hour working day;</li>
+        <li>The estates were liquidated, ranks and titles;</li>
+        <li>The church is separated from the state, the school is from the church;</li>
+        <li>Women received equal rights with men in all areas of public life;</li>
+        <li>For the first time in the entire In world history, power has passed to the working class. The world's first socialist state was created.</li>
+    </ol></p>
+    <br>
+    <div class="article-photo">
+        <img src="images/te_zhe_gody.jpg" class="main-photo" alt="Великая Октябрьская социалистическая революция">
+    </div>
+    <br>
+    <p>Despite the collapse and counter-revolution in 1991, the USSR remains an example for the whole world as the most successful project for building a communist society. And the October Revolution remains a historical example for the entire labor movement and proves that workers can live without capitalists, and capitalists cannot without exploiting the labor of the proletarians. The story about Red October 1917 is a clear instruction and a historical example for the entire working class and its vanguard, the Communist Party.</p>
+    <br>
+    <br>
+    <strong>Workers of the world, unite!</strong>
+    <br>
+    <br>
+    <i>Thank you for your attention!</i>
+    <br>
+    `);
 engVerse.innerHTML = content5;
 
 function addLink() {
