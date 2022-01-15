@@ -186,11 +186,17 @@ html {
       max-width: 940px;
     }
     margin: auto;
-    background: seashell;
-    border: 1px solid gray;
 
     .item {
-      margin: 40px 80px 0 80px;
+      background: seashell;
+      border: 1px solid gray;
+      padding: 20px;
+      margin-top: 20px;
+
+      @media(min-width: 740px) {
+        margin: 40px 80px 0 80px;
+      }
+
       &:last-child {
         margin-bottom: 40px;
       }

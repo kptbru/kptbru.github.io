@@ -120,9 +120,7 @@ html {
   width: 100%; }
   .central .container {
     max-width: 540px;
-    margin: auto;
-    background: seashell;
-    border: 1px solid gray; }
+    margin: auto; }
     @media (min-width: 740px) {
       .central .container {
         max-width: 640px; } }
@@ -136,7 +134,13 @@ html {
       .central .container {
         max-width: 940px; } }
     .central .container .item {
-      margin: 40px 80px 0 80px; }
+      background: seashell;
+      border: 1px solid gray;
+      padding: 20px;
+      margin-top: 20px; }
+      @media (min-width: 740px) {
+        .central .container .item {
+          margin: 40px 80px 0 80px; } }
       .central .container .item:last-child {
         margin-bottom: 40px; }
     .central .container img {
