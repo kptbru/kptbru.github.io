@@ -174,29 +174,33 @@ html {
   width: 100%;
   padding: 0 10px;
   .container {
-    max-width: 540px;
-    @media(min-width: 740px) {
-      max-width: 640px;
-    }
-    @media(min-width: 840px) {
-      max-width: 740px;
-    }
-    @media(min-width: 940px) {
-      max-width: 840px;
-    }
-    @media(min-width: 1040px) {
-      max-width: 940px;
-    }
-    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 
     .item {
+      flex-basis: 540px;
+      @media(min-width: 740px) {
+        flex-basis: 640px;
+      }
+      @media(min-width: 840px) {
+        flex-basis: 740px;
+      }
+      @media(min-width: 940px) {
+        flex-basis: 840px;
+      }
+      @media(min-width: 1040px) {
+        flex-basis: 640px;
+      }
       background: seashell;
       border: 1px solid gray;
       padding: 20px;
       margin-top: 20px;
 
       @media(min-width: 740px) {
-        margin: 40px 80px 0 80px;
+        &:not(:last-child) {
+          margin: 20px 20px 0 0;
+        }
       }
 
       &:last-child {
