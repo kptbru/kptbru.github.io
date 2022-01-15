@@ -123,6 +123,18 @@ html {
     margin: auto;
     background: seashell;
     border: 1px solid gray; }
+    @media (min-width: 740px) {
+      .central .container {
+        max-width: 640px; } }
+    @media (min-width: 840px) {
+      .central .container {
+        max-width: 740px; } }
+    @media (min-width: 940px) {
+      .central .container {
+        max-width: 840px; } }
+    @media (min-width: 1040px) {
+      .central .container {
+        max-width: 940px; } }
     .central .container .item {
       margin: 40px 80px 0 80px; }
       .central .container .item:last-child {

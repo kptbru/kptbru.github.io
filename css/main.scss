@@ -173,6 +173,18 @@ html {
   width: 100%;
   .container {
     max-width: 540px;
+    @media(min-width: 740px) {
+      max-width: 640px;
+    }
+    @media(min-width: 840px) {
+      max-width: 740px;
+    }
+    @media(min-width: 940px) {
+      max-width: 840px;
+    }
+    @media(min-width: 1040px) {
+      max-width: 940px;
+    }
     margin: auto;
     background: seashell;
     border: 1px solid gray;
