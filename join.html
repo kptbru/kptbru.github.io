@@ -13,9 +13,48 @@
         <div class="menu"></div>
     </div>
     <div class="main">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfyRGyTjGIchkn-ta7unfqJvZ7QBBUBcUYu2K0ENmzOELaXHA/viewform?embedded=true" width="1500" height="1950" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfyRGyTjGIchkn-ta7unfqJvZ7QBBUBcUYu2K0ENmzOELaXHA/viewform?embedded=true" height="2000" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe>
     </div>
     <div class="ground"></div>
     <script src="js/menus.js"></script>
+    <script>
+      function getMyHeight() {
+          return Math.max( document.body.scrollHeight, document.documentElement.scrollHeight)
+      }
+
+      function sendDimensionsToParent() {
+          var iframeDimensions_New = {
+              'width': window.innerWidth,
+              'height': getMyHeight()
+          };
+          if((iframeDimensions_New.width != iframeDimensions_Old.width) || (iframeDimensions_New.height != iframeDimensions_Old.height)) {
+              window.parent.postMessage(iframeDimensions_New, "*");
+              iframeDimensions_Old = iframeDimensions_New;
+          }
+      }
+
+      window.addEventListener('load', () => {
+          iframeDimensions_Old = {
+              'width': window.innerWidth,
+              'height': getMyHeight()
+          };
+          window.parent.postMessage(iframeDimensions_Old, "*");
+          if( window.MutationObserver ) {
+              var observer = new MutationObserver(sendDimensionsToParent);
+              config = {
+                  attributes: true,
+                  attributeOldValue: false,
+                  characterData: true,
+                  characterDataOldValue: false,
+                  childList: true,
+                  subtree: true
+              };
+              observer.observe(document.body, config);
+
+          } else {
+              window.setInterval(sendDimensionsToParent, 300);
+          }
+      });
+    </script>
 </body>
 </html>
