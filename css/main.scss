@@ -103,6 +103,7 @@ html {
 .main {
   margin-top: 40px;
   width: 100%;
+  padding: 0 10px;
   iframe {
     width: 100%;
   }
@@ -171,6 +172,7 @@ html {
 .central {
   margin-top: 40px;
   width: 100%;
+  padding: 0 10px;
   .container {
     max-width: 540px;
     @media(min-width: 740px) {

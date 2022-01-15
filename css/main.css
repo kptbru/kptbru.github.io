@@ -71,7 +71,8 @@ html {
 
 .main {
   margin-top: 40px;
-  width: 100%; }
+  width: 100%;
+  padding: 0 10px; }
   .main iframe {
     width: 100%; }
   .main .content {
@@ -117,7 +118,8 @@ html {
 
 .central {
   margin-top: 40px;
-  width: 100%; }
+  width: 100%;
+  padding: 0 10px; }
   .central .container {
     max-width: 540px;
     margin: auto; }
