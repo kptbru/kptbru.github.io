@@ -1,5 +1,9 @@
 let blocks = [
     {
+      name: 'Энвер Ходжа о задачах коммунистов',
+      source:'ywIfOTaLZpE',
+    },
+    {
       name: 'Че Гевара про империализм, 1964',
       source:'DFe9FxoFqJs',
     },
