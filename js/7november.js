@@ -33,7 +33,7 @@ const menu = document.querySelector('.menu');
     <ul>
         <li class="logo"><a href="${link.main}"><img src="images/kptbIcon.jpg" class="kptbIcon" alt="kptbIcon"></a></li>
         <li><a href="${link.main}">Главная страница</a></li>
-        <li><a href="${link.about}">О нас</a></li>
+        <li><a href="${link.about}">Наша программа</a></li>
         <li><a href="#">Новости</a>
             <ul lass="dropdown">
                 <li><a href="${link.posts}">Посты</a></li>
