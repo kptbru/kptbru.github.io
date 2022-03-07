@@ -23,7 +23,7 @@ let topLinksContent = menuLinks.map(link => `
     <a class="brand kptbIcon" href="${link.main}"><img src="images/kptbIcon.jpg" alt="kptbIcon"></a>
     <ul class="navigation-list">
         <li><a href="${link.main}">Главная страница</a></li>
-        <li><a href="${link.about}">О нас</a></li>
+        <li><a href="${link.about}">Наша программа</a></li>
         <li><a href="#">Новости</a>
             <ul class="dropdown">
                 <li><a href="${link.posts}">Посты</a></li>
