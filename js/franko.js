@@ -6,6 +6,8 @@ let menuLinks = [
       articles: 'articles.html',
       serbia: 'https://www.instagram.com/kptb_srb/?hl=ru',
       ukraine: 'https://www.instagram.com/mptb_ukraina/?hl=ru',
+      moldova: 'https://instagram.com/pcmm.ro.rm?utm_medium=copy_link',
+      poland: 'https://instagram.com/kpwp_pl?utm_medium=copy_link',
       germany: 'https://www.instagram.com/kpam_de/',
       tvorchestvo: 'https://www.instagram.com/souz_proletarskogo_tvorchestva/',
       italy: 'https://www.instagram.com/kptb_italia/',
@@ -31,7 +33,7 @@ const menu = document.querySelector('.menu');
     <ul>
         <li class="logo"><a href="${link.main}"><img src="images/kptbIcon.jpg" class="kptbIcon" alt="kptbIcon"></a></li>
         <li><a href="${link.main}">Главная страница</a></li>
-        <li><a href="${link.about}">О нас</a></li>
+        <li><a href="${link.about}">Наша программа</a></li>
         <li><a href="#">Новости</a>
             <ul lass="dropdown">
                 <li><a href="${link.posts}">Посты</a></li>
@@ -44,6 +46,8 @@ const menu = document.querySelector('.menu');
                 <li><a href="${link.kirgiz}">КПТБ Киргизии</a></li>
                 <li><a href="${link.ukraine}">МПТБ Украины</a></li>
                 <li><a href="${link.germany}">КПТБ Германии</a></li>
+                <li><a href="${link.moldova}">КПТБ Молдовы и Румынии</a></li>
+                <li><a href="${link.poland}">КПТБ Польши</a></li>
                 <li><a href="${link.tvorchestvo}">Союз Пролетарского Творчества</a></li>
                 <li><a href="${link.italy}">КПТБ Италии</a></li>
                 <li><a href="${link.newzealand}">КПТБ Новой Зеландии</a></li>
