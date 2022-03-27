@@ -1,21 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="shortcut icon" href="images/icon.jpg" type="image/x-icon">
+<html>
+  <head>
     <title>Статьи | КПТБ</title>
-</head>
-<body>
-    <div class="header">
-        <div class="menu"></div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="shortcut icon" href="img/icon.jpg" type="image/x-icon">
+  </head>
+  <body>
+    <nav class="navbar">
+      <a class="logo" href="index.html">
+        <img class="kptb-icon" src="img/logo.jpg">
+      </a>
+      <ul class="menu">
+        <li><a href="programme.html">Программа</a></li>
+        <li><a href="videos.html">Видео</a></li>
+        <li><a href="posts.html">Посты</a></li>
+        <li><a href="articles.html">Статьи</a></li>
+        <li><a href="sections.html">Отделы</a></li>
+        <li><a target="_blank" class="join-button" href="https://docs.google.com/forms/d/e/1FAIpQLSfyRGyTjGIchkn-ta7unfqJvZ7QBBUBcUYu2K0ENmzOELaXHA/viewform">Вступить</a>
+      </ul>
+    </nav>
+    <div class="container">
+      <section class="post-list">
+        <div class="post" id="12"></div>
+        <div class="post" id="11"></div>
+        <div class="post" id="10"></div>
+        <div class="post" id="9"></div>
+        <div class="post" id="8"></div>
+        <div class="post" id="7"></div>
+        <div class="post" id="6"></div>
+        <div class="post" id="5"></div>
+        <div class="post" id="4"></div>
+        <div class="post" id="3"></div>
+        <div class="post" id="2"></div>
+        <div class="post" id="1"></div>
+      </section>
     </div>
-    <div class="central">
-        <div class="container"></div>
-    </div>
-    <div class="ground"></div>
-    <script src="js/articles.js"></script>
-    <script src="js/menus.js"></script>
+    <footer>
+      <div class="container">
+        <div class="links">
+          <ul>
+            <h3>Контакты</h3>
+            <li><a href="https://www.youtube.com/channel/UCvO2vXE3fLN8W5QiRsMFP6g/featured">YouTube</a></li>
+            <li><a href="https://t.me/kptb_org">Telegram</a></li>
+            <li><a href="https://www.instagram.com/kptb_russia/?igshid=tzl9uephxohe">Instagram</a></li>
+            <li><a href="https://vk.com/club180844773">Группа ВК</a></li>
+          </ul>
+        </div>
+        <div class="copy">
+          Copyright &copy; общенародная собственность.
+        </div>
+    </footer>
+    <script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
+    <script src="js/post-list.js"></script>
+    <script>
+      processor("articles/", "fetch-article.html");
+    </script>
+  </body>
 </html>
