@@ -396,7 +396,43 @@ section.post-list div.post, section.videos section .content .video {
   }
 
   .markdown-preview, .video-text {
+
     flex: 1;
+
+    h1, h2, h3, h4, h5, h6 {
+      font-size: 1.2rem;
+    }
+
+    p {
+      line-height: 1.6;
+      word-break: break-word;
+      margin-bottom: 10px;
+
+      text-align: left;
+      @media(min-width: $small-tablet-minwidth) {
+        text-align: justify;
+      }
+    }
+
+    a {
+      color: #5671FF;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    ul, ol {
+      padding-left: 2em;
+      margin-bottom: 25px;
+    }
+
+    blockquote {
+      padding-left: 20px;
+      border-left: 2px solid #a0a0a0;
+      margin: 20px 0;
+      color: #2a2a2a;
+      font-style: italic;
+    }
 
     h1.post-title, h1.video-title {
       font-size: 2rem;
@@ -407,20 +443,12 @@ section.post-list div.post, section.videos section .content .video {
 
       word-break: break-word;
       margin: 20px 0;
-      font-size: 1.2rem;
+
       text-align: center;
 
       @media(min-width: $tablet-minwidth) {
         font-size: 1.5rem;
       }
-    }
-
-    p {
-      line-height: 1.6;
-      text-align: justify;
-      margin-bottom: 10px;
-
-      word-break: break-word;
     }
 
     a.continue-reading, .desc-link {
