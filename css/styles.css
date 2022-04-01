@@ -226,6 +226,12 @@ section.markdown {
     margin: 30px auto;
     max-width: 100%;
     height: auto; }
+  section.markdown blockquote {
+    padding-left: 20px;
+    border-left: 2px solid #a0a0a0;
+    margin: 20px 0;
+    color: #2a2a2a;
+    font-style: italic; }
 
 section.post-list div.post, section.videos section .content .video {
   width: 100%;
