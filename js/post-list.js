@@ -13,6 +13,9 @@ function processor(folder, fetchFile) {
             })
             .then(data => {
                 let converter = new showdown.Converter();
+                converter.setFlavor('github');
+                converter.setOption('simpleLineBreaks', false);
+
                 article.innerHTML =
                     converter.makeHtml([data.substr(0, 600), '...'].join(''));
                 let image = null;

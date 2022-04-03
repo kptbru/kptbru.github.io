@@ -22,6 +22,8 @@ function main(folder) {
             articleHolder.classList.toggle("nojs");
             articleHolder.classList.toggle("markdown");
             let converter = new showdown.Converter();
+            converter.setFlavor('github');
+            converter.setOption('simpleLineBreaks', false);
 
             articleHolder.innerHTML = converter.makeHtml(data);
             document.title = [
