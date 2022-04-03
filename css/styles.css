@@ -10,6 +10,7 @@
   padding: 0; }
 
 html {
+  line-height: 1.4;
   font-size: 14px; }
   @media (min-width: 769px) {
     html {
@@ -32,6 +33,11 @@ div.container {
   @media (min-width: 1281px) {
     div.container {
       max-width: 1156px; } }
+
+div.narrow-container {
+  margin: auto;
+  padding: 10px;
+  max-width: 769px; }
 
 nav.navbar {
   margin: 20px 20px;
@@ -200,9 +206,10 @@ section.nojs {
         margin-right: 10px; }
 
 section.markdown {
-  padding: 0 25px;
-  margin: 50px 0 150px 0;
-  line-height: 1.6; }
+  margin: 50px 0 150px 0; }
+  @media (min-width: 569px) {
+    section.markdown {
+      padding: 0 25px; } }
   section.markdown h1 {
     font-size: 2.4rem; }
   section.markdown h1, section.markdown h2, section.markdown h3, section.markdown h4, section.markdown h5, section.markdown h6 {
@@ -221,6 +228,8 @@ section.markdown {
   section.markdown ul, section.markdown ol {
     padding-left: 2em;
     margin-bottom: 25px; }
+    section.markdown ul li:not(:last-child), section.markdown ol li:not(:last-child) {
+      margin-bottom: 10px; }
   section.markdown img {
     display: block;
     margin: 30px auto;
@@ -269,7 +278,6 @@ section.post-list div.post, section.videos section .content .video {
     section.post-list div.post .markdown-preview h1, section.post-list div.post .markdown-preview h2, section.post-list div.post .markdown-preview h3, section.post-list div.post .markdown-preview h4, section.post-list div.post .markdown-preview h5, section.post-list div.post .markdown-preview h6, section.post-list div.post .video-text h1, section.post-list div.post .video-text h2, section.post-list div.post .video-text h3, section.post-list div.post .video-text h4, section.post-list div.post .video-text h5, section.post-list div.post .video-text h6, section.videos section .content .video .markdown-preview h1, section.videos section .content .video .markdown-preview h2, section.videos section .content .video .markdown-preview h3, section.videos section .content .video .markdown-preview h4, section.videos section .content .video .markdown-preview h5, section.videos section .content .video .markdown-preview h6, section.videos section .content .video .video-text h1, section.videos section .content .video .video-text h2, section.videos section .content .video .video-text h3, section.videos section .content .video .video-text h4, section.videos section .content .video .video-text h5, section.videos section .content .video .video-text h6 {
       font-size: 1.2rem; }
     section.post-list div.post .markdown-preview p, section.post-list div.post .video-text p, section.videos section .content .video .markdown-preview p, section.videos section .content .video .video-text p {
-      line-height: 1.6;
       word-break: break-word;
       margin-bottom: 10px;
       text-align: left; }
