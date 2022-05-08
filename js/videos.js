@@ -24,6 +24,7 @@ let translation = [
 ];
 
 let teorija = [
+    'ANk1ysBH2tU',
     'RyxoJz25_KU',
     'ls9iJvnBFis',
     '4WDgMs0hq1U',
@@ -67,6 +68,7 @@ let spt = [
 ];
 
 let all = [
+    'ANk1ysBH2tU',
     'RyxoJz25_KU',
     'D9nO9AaltmE',
     'Xz3w8hj59-g',
