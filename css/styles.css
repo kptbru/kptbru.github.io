@@ -66,6 +66,7 @@ nav.navbar {
     nav.navbar a.logo img.kptb-icon {
       height: 100%; }
   nav.navbar ul.menu {
+    font-family: 'IBM Plex Sans', sans-serif;
     max-width: 80%;
     list-style: none;
     display: flex;
